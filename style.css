@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(167, 167, 177); /* Warna dasar latar belakang */
+  background-size: cover; /* Mengatur ukuran gambar agar menutupi seluruh halaman */
+  color: rgb(17, 17, 16); /* Warna teks */
+}
+h2 {
+  margin-bottom: 30px;
+}
+section {
+  padding: 65px 0;
+  margin-top: -50px; /* Mengimbangi padding atas */
+}
+section[id] {
+  scroll-margin-top: 65px;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+
+/*Navbar Custom*/
+.custom-navbar {
+  background-color: #414156; /* Ganti dengan warna yang Anda inginkan */
+}
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: #ffffff; /* Warna teks */
+}
+.custom-navbar .nav-link:hover {
+  color: #cccccc; /* Warna teks saat di-hover */
+}
+
+section {
+  padding: 60px 0;
+  margin-top: -50px; /* Mengimbangi padding atas */
+}
+
+/*Footer Custom*/
+.custom-footer {
+  background-color: #343a40;
+  color: #ffffff;
+}
+.custom-footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.custom-footer a:hover {
+  color: #cccccc;
+}
+.custom-footer .fab {
+  margin-right: 10px;
+}
