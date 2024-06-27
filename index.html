@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portofolio</title>
+    <title>Web Portofolio</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="style.css" />
@@ -11,43 +11,136 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
-      <a class="navbar-brand" href="#">Portofolio</a>
+      <a class="navbar-brand" href="#">Fakhri Muhamad Ihsan</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a class="nav-link" href="#about">Tentang Saya</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills">Keahlian</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Kemampuan</a></li>
           <li class="nav-item"><a class="nav-link" href="#projects">Proyek</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
         </ul>
       </div>
     </nav>
+    <br /><br />
 
     <!-- Sections -->
-    <section id="about" class="py-5 mt-4">
+    <section id="about" class="py-5">
       <div class="container">
-        <h2 class="text-center">Tentang Saya</h2>
-        <p>Nama saya adalah [Nama Anda], dan saya seorang [profesi atau hobi]. Saya memiliki pengalaman dalam [keahlian utama].</p>
+        <div class="row align-items-center">
+          <div class="col-md-4 text-center position-relative">
+            <img src="img/dp.png" class="img-fluid rounded-circle larger-image" alt="Foto Saya" />
+          </div>
+          <div class="col-md-8">
+            <h2 class="text-center text-md-start">Selamat Datang!</h2>
+            <h4>
+              Hai, saya seorang Web Developer. Berpengalaman dalam beberapa proyek pengembangan aplikasi berbasis website menggunakan bahasa pemrograman, terutama PHP dan Javascript. Mengambil tujuan karir dalam bidang web developer, saya
+              ingin menghasilkan kode yang efisien dan dapat diimplementasikan dengan baik.
+            </h4>
+            <div class="icon-links mt-4 text-center">
+              <a href="https://www.instagram.com/fakhrimihs?igsh=am10ODE0M2l6ZTFm" target="_blank" class="me-3"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/fakhri-muhamad-ihsan-47b33b266" target="_blank" class="me-3"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.facebook.com/arie.fakhri.73?mibextid=ZbWKwL" target="_blank" class="me-3"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="skills" class="py-5 bg-light mt-4">
+    <section id="skills" class="py-5 bg-light">
       <div class="container">
-        <h2 class="text-center">Keahlian</h2>
-        <p>Deskripsi keahlian Anda.</p>
+        <h2>Kemampuan Relevan</h2>
+        <hr style="border-width: 2px" />
+        <div class="row">
+          <div class="col-md-5">
+            <ul class="fa-ul">
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span> HTML CSS
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span> Bootstrap
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span> PHP: Hypertext Preprocessor
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span> Laravel
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span> Codeigniter
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            <ul class="fa-ul">
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span> Javascript
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span> MySQL
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span> DDL & DML
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span> Software Analyst
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span> Version Control System Github
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="projects" class="py-5 mt-4">
+    <section id="projects" class="py-5">
       <div class="container">
-        <h2 class="text-center">Proyek</h2>
-        <p>Deskripsi proyek Anda.</p>
+        <h2 class="text-center">Proyek-proyek</h2>
+        <hr style="border-width: 2px" />
+        <br />
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <img src="img/project1.jpeg" class="img-fluid rounded project-img" alt="Proyek 1" />
+            <div class="overlay">
+              <div class="text">
+                <h1>Tugas Akhir Proyek Aplikasi Pemesanan Berbasis Website</h1>
+                <hr style="border-width: 2px" />
+                <p>Aplikasi pemesanan perhiasan berbasis online dengan pelaporan role sales kepada owner dan validasi pengrajin.</p>
+                <p>install aplikasi klik <a href="https://drive.google.com/drive/folders/10BKvO2bgCxwhWyJK2KasuP3xO4-UjvjV?usp=sharing">disini</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="img/project2.jpeg" class="img-fluid rounded project-img" alt="Proyek 2" />
+            <div class="overlay">
+              <div class="text">
+                <h1>Proyek Pembuatan Aplikasi Rak Buku (Bookshelf Apps)</h1>
+                <hr style="border-width: 2px" />
+                <p>Aplikasi sederhana rak buku untuk mendata data buku yang dibaca dan belum dibaca dengan tambahan fitur edit dan hapus</p>
+                <p>install aplikasi klik <a href="https://drive.google.com/drive/folders/1zjl59ewf2fNMSbyNcwQt8W6qmQJtaSZ1?usp=sharing">disini</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="img/project3.jpeg" class="img-fluid rounded project-img" alt="Proyek 3" />
+            <div class="overlay">
+              <div class="text">
+                <h1>Proyek Fundamental Course Revou (Studi Kasus Web Informasi)</h1>
+                <hr style="border-width: 2px" />
+                <p>Aplikasi demo sistem informasi rumah sakit Ihsan Medika bedasarkan studi kasus yang telah ditentukan dan memuat informasi fasilitas rumah sakit</p>
+                <p>install aplikasi klik <a href="https://drive.google.com/drive/folders/1Tk77fOfko8OssfJHpQlKBarVstHUQsNd?usp=sharing">disini</a></p>
+              </div>
+            </div>
+          </div>
+          <!-- Tambahkan proyek-proyek lainnya sesuai kebutuhan -->
+        </div>
       </div>
     </section>
 
-    <section id="contact" class="py-5 bg-light mt-4">
+    <section id="contact" class="py-5 bg-light">
       <div class="container">
         <h2 class="text-center">Kontak</h2>
         <p>Informasi kontak Anda.</p>
@@ -59,8 +152,8 @@
       <div class="container p-4">
         <div class="row">
           <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Nama Anda</h5>
-            <p>Deskripsi singkat tentang Anda atau perusahaan Anda.</p>
+            <h5 class="text-uppercase">Fakhri Muhamad Ihsan</h5>
+            <p>Web Developer | PHP Coder</p>
           </div>
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase">Tautan</h5>
@@ -75,18 +168,20 @@
             <h5 class="text-uppercase">Ikuti Saya</h5>
             <ul class="list-unstyled">
               <li>
-                <a href="#" class="text-white"><i class="fab fa-instagram"></i> Instagram</a>
-              </li>
-              <li>
-                <a href="#" class="text-white"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://www.instagram.com/fakhrimihs?igsh=am10ODE0M2l6ZTFm" class="text-white"><i class="fab fa-instagram"></i></a>
+
+                <a href="https://www.linkedin.com/in/fakhri-muhamad-ihsan-47b33b266" class="text-white"><i class="fab fa-linkedin"></i></a>
+
+                <a href="https://www.facebook.com/arie.fakhri.73?mibextid=ZbWKwL" class="text-white"><i class="fab fa-facebook"></i></a>
               </li>
             </ul>
           </div>
+          <a href="https://wa.me/+6287741788484" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=fakhrimuhamadihs29@gmail.com" target="_blank" class="me-3"><i class="fas fa-envelope"></i></a>
         </div>
       </div>
-      <div class="text-center p-3 bg-dark">&copy; 2023 Nama Anda</div>
+      <div class="text-center p-3 bg-dark">&copy; 2024 Web Portofolio Fakhri</div>
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
